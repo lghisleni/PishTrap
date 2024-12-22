@@ -1,0 +1,50 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % Per inserire immagini
+\usepackage{hyperref} % Per link interni ed esterni
+\usepackage{geometry} % Per margini personalizzati
+\geometry{a4paper, margin=1in}
+
+% Informazioni del documento
+\title{\textbf{Documentazione del Progetto PishTrap}}
+\author{Luca Ghisleni}
+\date{Novembre 2024}
+
+\begin{document}
+
+% Front Page
+\begin{titlepage}
+    \centering
+    \vspace*{1cm}
+    
+    % Università e Corso
+    {\Large Università degli Studi di Bergamo \\[0.5cm]
+    Laurea Magistrale in Ingegneria Informatica \\[0.5cm]
+    Modulo di Progettazione Algoritmi e Computabilità (9 CFU)} \\[2cm]
+    
+    % Logo
+    \includegraphics[width=0.4\textwidth]{immagini/logo.png} % Percorso dell'immagine
+    \vspace{2cm}
+    
+    % Titolo del Documento
+    {\Huge \textbf{PishTrap}}
+    
+    \vspace{1.5cm}
+    {\Large Luca Ghisleni} \\[0.5cm]
+    {\large Novembre 2024}
+    
+    \vfill
+\end{titlepage}
+
+% Sommario e Liste
+\tableofcontents
+\newpage
+\listoffigures
+\listoftables
+\newpage
+
+% Introduzione
+\section{Iterazione 0}
+\input{Iterazione 0/iterazione0} % Contenuto del file introduzione.tex
+
+\end{document}

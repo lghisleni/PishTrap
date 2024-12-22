@@ -1,0 +1,125 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.3">
+  <diagram name="Pagina-1" id="flGAWywJXSh9ZSHbCdVl">
+    <mxGraphModel dx="1000" dy="2835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DTQLmcuUtUiHBf5b3twO-1" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;: SmartPhone Utente&lt;br&gt;{SO: Android}" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="370" y="-2170" width="218" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="DTQLmcuUtUiHBf5b3twO-3" value="Applicazione Flutter" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="413" y="-2100" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DTQLmcuUtUiHBf5b3twO-4" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="DTQLmcuUtUiHBf5b3twO-3" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DTQLmcuUtUiHBf5b3twO-5" value="&amp;lt;&amp;lt;node&amp;gt;&amp;gt;&amp;nbsp;:WebServerAWS&lt;br&gt;{SO: Linux}" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="200" y="-1820" width="470" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="DTQLmcuUtUiHBf5b3twO-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0.009;entryY=0.414;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="477.69" y="-1819.9999999999998" as="targetPoint" />
+            <mxPoint x="478" y="-2000" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DTQLmcuUtUiHBf5b3twO-15" value="&amp;lt;&amp;lt;HTTPS/REST/JSON&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="DTQLmcuUtUiHBf5b3twO-14" vertex="1" connectable="0">
+          <mxGeometry x="-0.147" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DTQLmcuUtUiHBf5b3twO-27" value=": MongoDBServer" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="330" y="-1480" width="196" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DTQLmcuUtUiHBf5b3twO-29" value="Google Safe Browsing API" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="200" y="-2060" width="148" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="DTQLmcuUtUiHBf5b3twO-30" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="DTQLmcuUtUiHBf5b3twO-29" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DTQLmcuUtUiHBf5b3twO-31" value="Gmail API" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-2060" width="148" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="DTQLmcuUtUiHBf5b3twO-32" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="DTQLmcuUtUiHBf5b3twO-31" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DTQLmcuUtUiHBf5b3twO-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=-0.001;entryY=0.875;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="DTQLmcuUtUiHBf5b3twO-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="-1910" as="sourcePoint" />
+            <mxPoint x="268.75" y="-1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DTQLmcuUtUiHBf5b3twO-37" value="&amp;lt;&amp;lt;HTTPS/REST/JSON + OAuth2.0&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="DTQLmcuUtUiHBf5b3twO-36" vertex="1" connectable="0">
+          <mxGeometry x="-0.147" relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DTQLmcuUtUiHBf5b3twO-38" value="PishTankAPI" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="618" y="-2060" width="148" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="DTQLmcuUtUiHBf5b3twO-39" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="DTQLmcuUtUiHBf5b3twO-38" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DTQLmcuUtUiHBf5b3twO-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;entryX=-0.007;entryY=0.242;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="DTQLmcuUtUiHBf5b3twO-38" target="DTQLmcuUtUiHBf5b3twO-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="687" y="-2015" as="sourcePoint" />
+            <mxPoint x="574" y="-1813" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DTQLmcuUtUiHBf5b3twO-41" value="&amp;lt;&amp;lt;HTTPS/REST/JSON&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="DTQLmcuUtUiHBf5b3twO-40" vertex="1" connectable="0">
+          <mxGeometry x="-0.147" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DTQLmcuUtUiHBf5b3twO-43" value="PishTankDB" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="358" y="-1430" width="140" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="DTQLmcuUtUiHBf5b3twO-44" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="DTQLmcuUtUiHBf5b3twO-43" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DTQLmcuUtUiHBf5b3twO-45" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0;entryY=0;entryDx=0;entryDy=93;entryPerimeter=0;exitX=0;exitY=0;exitDx=200;exitDy=240;exitPerimeter=0;" parent="1" target="DTQLmcuUtUiHBf5b3twO-27" edge="1" source="DTQLmcuUtUiHBf5b3twO-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="-1610" as="sourcePoint" />
+            <mxPoint x="416" y="-1392" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DTQLmcuUtUiHBf5b3twO-46" value="&amp;lt;&amp;lt;MongoDB/TLS&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="DTQLmcuUtUiHBf5b3twO-45" vertex="1" connectable="0">
+          <mxGeometry x="-0.147" relative="1" as="geometry">
+            <mxPoint y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DTQLmcuUtUiHBf5b3twO-47" value="&lt;div&gt;OAuth 2.0 viene utilizzato per gestire &lt;br&gt;login e autorizzazioni,fornendo token &lt;br&gt;per Gmail API e Google Safe Browsing API.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="60" y="-2160" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DZycC6s0T3OCq5gjcE9t-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DTQLmcuUtUiHBf5b3twO-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="-1970" as="sourcePoint" />
+            <mxPoint x="320" y="-1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DZycC6s0T3OCq5gjcE9t-4" value="&amp;lt;&amp;lt;HTTPS/REST/JSON + OAuth2.0&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DZycC6s0T3OCq5gjcE9t-3">
+          <mxGeometry x="-0.147" relative="1" as="geometry">
+            <mxPoint x="-9" y="-40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DZycC6s0T3OCq5gjcE9t-9" value="PishTrap" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="329" y="-1765" width="212" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="DZycC6s0T3OCq5gjcE9t-10" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="DZycC6s0T3OCq5gjcE9t-9">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
